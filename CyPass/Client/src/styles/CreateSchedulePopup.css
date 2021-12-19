@@ -1,0 +1,25 @@
+.create-new-schedule-popup h4 {
+  margin: 10px 0;
+}
+.create-new-schedule-popup .body {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+
+.create-new-schedule-popup .section {
+  margin-top: 20px;
+}
+
+.create-new-schedule-popup .duration {
+  margin-bottom: 16px;
+}
+
+.create-new-schedule-popup input[type="text"],
+.create-new-schedule-popup input[type="date"],
+.create-new-schedule-popup input[type="time"],
+.create-new-schedule-popup select {
+  width: calc(100% - 20px);
+  max-width: 220px;
+  padding: 8px;
+  border: 1px solid #9e9e9e;
+}

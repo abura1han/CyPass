@@ -1,0 +1,17 @@
+.add-staff form div * {
+  display: block;
+}
+
+.add-staff form div input,
+.add-staff form div select,
+.add-staff form div textarea {
+  padding: 8px;
+  color: #313131;
+  border: 1px solid #a3a3a3;
+}
+
+.add-staff form div button {
+  padding: 8px 14px;
+  margin-top: 10px;
+  color: #fff;
+}

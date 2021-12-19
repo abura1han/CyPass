@@ -1,0 +1,35 @@
+.settings-page .section {
+  margin-top: 10px;
+  box-shadow: 0 0 10px #bebebe;
+  padding: 10px;
+}
+
+.settings-page .section.acc-info > div {
+  margin-top: 10px;
+}
+
+.settings-page .section.acc-info > div div:last-child {
+  font-weight: 500;
+}
+
+.settings-page .section h4 {
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
+.settings-page input {
+  padding: 8px 6px;
+  border: 1px solid #858484;
+  border-radius: 2px;
+  color: #313131;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.settings-page button {
+  margin-top: 10px;
+  padding: 8px 14px;
+  border: none;
+  color: #fff;
+  background-color: #2f4f4f;
+}

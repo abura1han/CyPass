@@ -1,0 +1,97 @@
+.business-profile-page .section {
+  margin-top: 20px;
+}
+
+.business-profile-page .section:not(:first-child) {
+  margin-top: 40px;
+}
+
+.business-profile-page .section h4 {
+  margin-bottom: 15px;
+}
+
+.business-profile-page .section .marked {
+  display: inline-block;
+  padding: 2px;
+  background-color: orange;
+  border-radius: 2px 4px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.business-profile-page .section .image-preview {
+  width: 300px;
+  height: 260px;
+  background-color: lightgrey;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.business-profile-page .section .upload-btn,
+.business-profile-page .section .btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 2px;
+  color: whitesmoke;
+  background-color: #2f4f4f;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.business-profile-page .section .profile-save-btn {
+  margin-top: 18px;
+}
+
+.business-profile-page .section .text-box {
+  width: calc(800px - 10px);
+  min-height: 100px;
+  padding: 2px;
+  margin-top: 10px !important;
+  resize: vertical;
+  border: 1px solid #838383;
+  outline: none;
+}
+
+.business-profile-page .section .input-box label {
+  display: block;
+  font-weight: 500;
+}
+
+.business-profile-page .section .input-box input {
+  max-width: 500px;
+  width: calc(100% - 10px);
+  padding: 8px 4px;
+  border: 1px solid #838383;
+  border-radius: 2px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #313131;
+}
+
+.business-profile-page .section .check-group {
+  margin-top: 10px;
+}
+
+.business-profile-page .section .check-group label {
+  color: #313131;
+}
+
+.business-profile-page .section .check-group .input-box {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 5px 0;
+  border-bottom: 1px solid #dad9d9;
+}
+
+.business-profile-page .section .check-group input {
+  width: 60px;
+}
+
+.business-profile-page .section .hidden {
+  display: none;
+}

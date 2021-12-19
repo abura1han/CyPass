@@ -1,0 +1,51 @@
+.schedule-page .head {
+  color: #313131;
+}
+
+.schedule-page .btn {
+  padding: 8px 12px;
+  border: none;
+  color: #313131;
+  background-color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 0;
+}
+
+.schedule-page .btn.selected {
+  color: white;
+  background-color: #2f4f4f;
+}
+
+.schedule-page .head input {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 4px;
+  color: #313131;
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #999999;
+}
+
+.schedule-page .class-list {
+  margin-top: 20px;
+}
+
+.schedule-page .class-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.schedule-page .class-list ul li {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 10px 4px;
+  border-bottom: 1px solid #dadada;
+  cursor: pointer;
+  user-select: none;
+}
+
+.schedule-page .class-list .class-name {
+  font-size: 22px;
+}

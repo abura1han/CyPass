@@ -1,0 +1,28 @@
+.home-page {
+  max-width: 900px;
+  width: calc(100% - 10px);
+}
+
+.home-page .section {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #dad9d9;
+}
+
+.home-page .section a {
+  text-decoration: none;
+  padding: 6px 16px;
+  color: #313131;
+  border: 1px solid #313131;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.home-page .section a:hover,
+.home-page .section a:focus {
+  color: #fff;
+  background-color: #2f4f4f;
+}

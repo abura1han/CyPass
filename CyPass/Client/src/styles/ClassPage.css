@@ -1,0 +1,80 @@
+.class-page .head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.class-page .class-list {
+  display: flex;
+}
+
+.class-page .class-list ul {
+  max-width: 300px;
+  flex: 0.4;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.class-page .class-list ul li {
+  padding: 8px 4px;
+  border-bottom: 1px solid #cacaca;
+}
+
+.class-page .class-list ul li a {
+  display: block;
+  text-decoration: none;
+  color: #313131;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.create-class-popup div * {
+  display: block;
+}
+
+.create-class-popup div input {
+  padding: 8px 6px;
+  border: 1px solid #a3a3a3;
+}
+
+.create-class-popup div button {
+  margin-top: 10px;
+}
+
+.class-page .class-list .class-info {
+  flex: 0.6;
+  padding-left: 20px;
+}
+
+.class-page .class-list .class-info .section:not(:first-child) {
+  margin-top: 20px;
+}
+
+.class-page .class-list .class-info .marked {
+  display: inline-block;
+  padding: 2px 4px;
+  color: black;
+  background-color: orange;
+  border-radius: 2px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.class-page .class-list .class-info h4 {
+  margin: 0 0 10px 0;
+  color: #313131;
+}
+
+.class-page .class-list .class-info .info {
+  margin: 0 0 10px 0;
+  color: #313131;
+}
+
+.class-page .class-list .class-info input[type="text"],
+.class-page .class-list .class-info select,
+.class-page .class-list .class-info textarea {
+  padding: 8px 6px;
+  border: 1px solid #a3a3a3;
+  min-width: 300px;
+}

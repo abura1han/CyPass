@@ -1,0 +1,16 @@
+.staff-page details {
+  padding: 10px 5px;
+  box-shadow: 0 1px 1px #adadad;
+}
+
+.staff-page details div:last-child {
+  margin-top: 14px;
+}
+.staff-page details div:last-child .primary-btn {
+  margin-left: 10px;
+}
+
+.staff-page ul {
+  padding: 0;
+  list-style: none;
+}

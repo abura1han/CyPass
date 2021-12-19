@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+input,
+button,
+a {
+  border-radius: 2px;
+}
+
+input:focus {
+  outline: none;
+}
+
+:focus {
+  outline: 1px dashed black;
+}
+
+input.error {
+  color: red !important;
+  border-color: red !important;
+}
+
+input.success {
+  color: green !important;
+  border-color: green !important;
+}
+
+button:disabled {
+  color: white;
+  background-color: #bd0000;
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.primary-btn,
+.cancel-btn {
+  padding: 8px 12px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  background-color: #2f4f4f;
+  border: none;
+  cursor: pointer;
+}
+
+.back-btn {
+  color: white;
+  background-color: lightslategray;
+  margin-right: 10px;
+}
+
+.cancel-btn {
+  color: white;
+  background-color: #bd0000;
+}
+
+.input-box input,
+.input-box section {
+  color: #313131;
+  padding: 4px;
+  border: 1px solid #c0c0c0;
+}

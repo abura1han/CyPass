@@ -1,0 +1,66 @@
+.side-nav {
+  width: 190px;
+  height: calc(100vh - 40px);
+  padding: 20px;
+  padding-top: 10px;
+  border-right: 1px solid lightgrey;
+  overflow-y: auto;
+  user-select: none;
+}
+
+.side-nav .logo {
+  margin: 0 0 24px 0;
+  padding: 0;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.side-nav ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.side-nav ul li {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 16px;
+}
+
+.side-nav ul li a {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #313131;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.side-nav ul li a .material-icons-round {
+  margin-right: 14px;
+  color: #313131;
+}
+
+.side-nav ul li a .expand {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  justify-self: flex-end;
+  transform: translateY(-50%);
+}
+
+.side-nav ul li .sub-item {
+  margin-left: 42px;
+}
+
+.side-nav ul li .sub-item a {
+  margin-top: 12px;
+  color: black;
+  font-weight: 400;
+}

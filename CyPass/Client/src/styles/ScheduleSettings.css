@@ -1,0 +1,20 @@
+.schedule-settings-page .class-list {
+  display: block;
+}
+
+.schedule-settings-page .class-list ul li {
+  display: flex;
+}
+
+.schedule-settings-page .class-list ul li div:not(:first-child) {
+  font-weight: 400;
+  margin-left: 12px;
+}
+
+.schedule-settings-page .class-list ul li button {
+  margin-top: 10px;
+}
+
+.schedule-settings-page .class-list ul li button:last-child {
+  margin-left: 10px;
+}
